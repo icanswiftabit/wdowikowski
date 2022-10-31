@@ -5,6 +5,7 @@
     --accent-color: #427E82;
     --accent-color-highlighted: #428E82;
     --divider-color: #e5e5ea;
+    --logo-image: url("images/logoLight.png");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +15,7 @@
         --accent-color: #425E82;
         --accent-color-highlighted: #426E82;
         --divider-color: #3a3a3c;
+        --logo-image: url("images/logoDark.png");
     }
 }
 
@@ -23,6 +25,19 @@ body, html {
 
 body {
     font-family: sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 48%;
+    max-width: 640px;
+}
+
+img.logo {
+    content: var(--logo-image);
 }
 
 .content {
