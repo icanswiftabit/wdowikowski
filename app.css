@@ -12,8 +12,8 @@
     :root {
         --text-color: #FFF;
         --secondary-text-color: #636366;
-        --accent-color: #425E82;
-        --accent-color-highlighted: #426E82;
+        --accent-color: #5377A4;
+        --accent-color-highlighted: #7592B6;
         --divider-color: #3a3a3c;
         --logo-image: url("images/logoDark.png");
     }
